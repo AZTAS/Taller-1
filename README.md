@@ -1,9 +1,25 @@
 # Taller-1
-Dilan Steven Narvaez Pulido, Laura Carolina Lozada Escobar, Ariadne Zindy Tatiana Agreda Sigindioy
+![Logo Sencillo Neón para Bar (1)](https://user-images.githubusercontent.com/124845009/225525190-74a554dd-f187-46ca-bb9d-0b3d7301194a.png)
+
+Dilan Steven Narvaez Pulido
+
+Laura Carolina Lozada Escobar
+
+Ariadne Zindy Tatiana Agreda Sigindioy
+
 # 1. Quizz - Python Beginner Quizz
+*Quizz Ariadne Zindy Tatiana Agreda Sigindioy*
+
 ![image](https://user-images.githubusercontent.com/124845009/225464718-e4b74a4d-ca0c-417b-b55a-658d0a25f87a.png)
+
+*Quizz Laura Carolina Lozada Escobar*
+
 ![WhatsApp Image 2023-03-11 at 1 36 56 AM](https://user-images.githubusercontent.com/124845009/225465367-e337ee61-6158-46ec-9543-8345e0bfc5df.jpeg)
+
+*Quizz Dilan Steven Narvaez Pulido*
+
 ![image](https://user-images.githubusercontent.com/124845009/225465375-f17c6ccc-5395-450a-98e1-5a03563a621f.png)
+
 # 2. Programa que lee tres números reales y determina cuál es el mayor.
 
 x: float = float(input("ingrese el primer número: "))
