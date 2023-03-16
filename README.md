@@ -140,12 +140,122 @@ while (a+b+c+d+e) // x:
     print(promedio)
   
 * La mediana
+
+c: float = float(input("ingrese tercer número: "))
+
+d: float = float(input("ingrese cuarto número: "))
+
+e: float = float(input("ingrese quinto número: "))
+
+#Ordenar los numeros en orden ascendente
+
+numeros = [a, b, c, d, e]
+
+numeros_ordenados = sorted (numeros)
+
+print(numeros_ordenados)
+
+#Calcular la mediana
+
+if len(numeros_ordenados) % 2 == 0:
+
+    mediana = (numeros_ordenados[len(numeros_ordenados)//2 - 1] + numeros_ordenados[len(numeros_ordenados)//2]) / 2
+    
+else:
+
+    mediana = numeros_ordenados[len(numeros_ordenados)//2]
+    
+print("mediana", mediana)
+
 * El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
+
+#Calcular el promedio multiplicativo
+
+Producto= (a * b * c * d * e)
+
+promedio_multiplicativo = Producto **(1/5)
+
 * Ordenar los números de forma ascendente
+
+#Ordenar los numeros en orden ascendente 
+
+numeros = [a, b, c, d, e]
+
+numeros_ordenados = sorted (numeros)
+
+print(numeros_ordenados)
+
 * Ordenar los números de forma descendente
+* 
+a: float = float(input("ingrese primer número: "))
+
+b: float = float(input("ingrese segundo número: "))
+
+c: float = float(input("ingrese tercer número: "))
+
+d: float = float(input("ingrese cuarto número: "))
+
+e: float = float(input("ingrese quinto número: "))
+
+#Numeros descendentes
+
+numeros = (a, b, c, d, e)
+
+numeros_ordenados = sorted (numeros, reverse=True)
+
+print (numeros_ordenados)
+
 * La potencia del mayor número elevado al menor número
+
+#Calcular la potencia del mayor número elevado al menor número
+
+mayor = max(numeros_ordenados)
+
+menor = min(numeros_ordenados)
+
+potencia = mayor ** menor
+
+print(f"La potencia del mayor número ({mayor}) elevado al menor número ({menor}) es: {potencia}")
+
 * La raíz cúbica del menor número
+
+#Calcular la raíz cúbica del menor número
+
+raiz_cubica = abs(min(numeros_ordenados)) ** (1/3)
+
+print(f"Raizz cúbica del menor número ({min(numeros_ordenados)}) es: {raiz_cubica}")
+
 # 8. Programa al que se le ingrese la frecuencia de una onda en hz y como salida arroja en que parte del espectro electromagnético se encuentra.
+
+frecuencia = float(input("Ingrese la frecuencia en Hz: "))
+
+if frecuencia < 3e9:
+
+    print("La frecuencia " + str(frecuencia) + " se encuentra en el rango de ondas de radio")
+    
+elif frecuencia < 3e12:
+
+    print("La frecuencia " + str(frecuencia) + " se encuentra en el rango de microondas")
+    
+elif frecuencia < 4.3e14:
+
+    print("La frecuencia " + str(frecuencia) + " se encuentra en el rango de luz infrarroja")
+    
+elif frecuencia < 7.5e14:
+
+    print("La frecuencia " + str(frecuencia) + " se encuentra en el rango de luz visible")
+    
+elif frecuencia < 3e17:
+
+    print("La frecuencia " + str(frecuencia) + " se encuentra en el rango de luz ultravioleta")
+    
+elif frecuencia < 3e19:
+
+    print("La frecuencia " + str(frecuencia) + " se encuentra en el rango de rayos X")
+    
+else:
+
+    print("La frecuencia " + str(frecuencia) + " se encuentra en el rango de rayos gamma")
 
 # 9. Programa que recibe el nombre en minúsculas de un país de America y retorna la ciudad capital, si el país no pertenece al continente arroja país no identificado.
 
