@@ -95,6 +95,9 @@ elif x + y < z:
 else:
 
     print("la suma de los dos primeros números es igual que el tercer número")
+ 
+Diagrama de flujo 
+[![Diagrama-flujo-5.png](https://i.postimg.cc/qqbwTWTz/Diagrama-flujo-5.png)](https://postimg.cc/ZvNpP70S)
 
 # 6. Programa que solicita al usuario una letra y determine si es una vocal o una consonante.
 
